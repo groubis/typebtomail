@@ -86,6 +86,39 @@ Run your compliled executable (typebtomail.exe). This can be done directly from 
 If for example you have received a file called incomingtest.rcv under C:\typebtomail\IN with the following content:
 
 ```
+=HEADER
+RCV,2017/07/21 11:40
+=PRIORITY
+QK
+=DESTINATION TYPE B
+STX,TSTXXXX
+STX,TSTYYXX
+STX,TSTZZXX
+=ORIGIN
+TSTXXSS
+=DBLSIG
+XX
+=MSGID
+123456
+=SMI
+MVT
+=TEXT
+
+
+
+
+XX006/12.SXTST.ATH
+ED211140
+DL00
+
+
+
+
+```
+
+run the application and you will see something similar to this in the log files:
+
+```
 2017-07-21 08:45:41;TypeBToMail.v.1.3.au3;0;1 files were found under directory C:\typebtomail\IN.
 *****************************************************************************************************************************
 2017-07-21 08:45:41;TypeBToMail.v.1.3.au3;0;Attemtping to read file C:\typebtomail\IN\incomingtest.rcv.
