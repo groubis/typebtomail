@@ -144,4 +144,7 @@ run the application and you will see something similar to this in the log files:
 2017-07-21 08:45:44;TypeBToMail.v.1.3.au3;0;File C:\typebtomail\IN\incomingtest.rcv moved to directory C:\typebtomail\PARSED\2017\07\21.
 ```
 
+## Credits
+The following udf has been used:
 
+[AutoIT SMTP Mailer by Jos](https://www.autoitscript.com/forum/topic/23860-smtp-mailer-that-supports-html-and-attachments/)
