@@ -86,7 +86,29 @@ Run your compliled executable (typebtomail.exe). This can be done directly from 
 If for example you have received a file called incomingtest.rcv under C:\typebtomail\IN with the following content:
 
 ```
-
+2017-07-21 08:45:41;TypeBToMail.v.1.3.au3;0;1 files were found under directory C:\typebtomail\IN.
+*****************************************************************************************************************************
+2017-07-21 08:45:41;TypeBToMail.v.1.3.au3;0;Attemtping to read file C:\typebtomail\IN\incomingtest.rcv.
+2017-07-21 08:45:41;TypeBToMail.v.1.3.au3;0;File C:\typebtomail\IN\incomingtest.rcv is a valid type b message.
+2017-07-21 08:45:41;TypeBToMail.v.1.3.au3;0;File C:\typebtomail\IN\incomingtest.rcv parsed. Data were the following:
+                    Received On      -> 2017-07-21 11:40
+                    COR Indicator    -> 0
+                    PDM Indicator    -> 0
+                    Originator       -> TSTXXSS
+                    Destination(s)   -> TSTXXXX, TSTYYXX, TSTZZXX
+                    Message ID       -> 123456
+                    Double Signature -> XX
+                    Priority         -> QK
+                    Identifier       -> MVT
+                    Message Matched  -> Identifier matches system configuration.
+                    Text             -> [001] -> MVT
+                                        [002] -> XX006/12.SXTST.ATH
+                                        [003] -> ED211140
+                                        [004] -> DL00
+2017-07-21 08:45:41;TypeBToMail.v.1.3.au3;0;Starting email transmission.
+2017-07-21 08:45:44;TypeBToMail.v.1.3.au3;0;Email message sent successfully.
+2017-07-21 08:45:44;TypeBToMail.v.1.3.au3;0;Attemtping to move file C:\typebtomail\IN\incomingtest.rcv to directory C:\typebtomail\PARSED\2017\07\21.
+2017-07-21 08:45:44;TypeBToMail.v.1.3.au3;0;File C:\typebtomail\IN\incomingtest.rcv moved to directory C:\typebtomail\PARSED\2017\07\21.
 ```
 
 
